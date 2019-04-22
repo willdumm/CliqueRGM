@@ -21,3 +21,6 @@ $ make html
 Hopefully everything will work, and you may then open the file ``cliquergm/doc/build/html/index.html`` in a browser to view the html documentation.
 
 You may also run ``make latexpdf`` if you have LaTeX installed, to build a pdf version of the documentation, which you'll then find at ``cliquergm/doc/build/latex/cliquergm.pdf``
+
+## Running Tests
+Tests are handled by Pytest. If Pytest is installed, then you may simply run ``pytest`` from within the ``cliquergm`` directory. Tests are located in ``cliquergm/tests``.
