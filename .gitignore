@@ -1,0 +1,35 @@
+# Ignore files created by .tex compilation
+*.aux
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+*.dvi
+
+# And also pdf files
+*.pdf
+
+# Miscellaneous system files
+*.DS_Store
+.vscode/
+
+# Side-effects of profiling/running
+logs/
+.ipynb*/
+__pycache__/
+*.lprof*
+*.gexf
+*.bat
+*.graphml
+*.pyc
+*.html
+*.p  # pickling files
+*.egg*
+sampler/c_implementation/mcmc
+
+# Side-effects of testing
+*.pytest*

@@ -1,0 +1,33 @@
+# Ignore files created by .tex compilation, and the tex directory itself
+*.aux
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.toc
+build/latex
+
+# And also pdf files
+*.pdf
+# Cliquer library
+cliquer-*
+
+# Miscellaneous system files
+*.DS_Store
+.vscode/
+
+# Side-effects of profiling/running
+logs/
+.ipynb*/
+__pycache__/
+*.lprof*
+*.gexf
+*.graphml
+*.pyc
+
+
+# Sphinx-specific build side-effects
+build/doctrees
+source/reference/functions
+build/html

@@ -1,0 +1,4 @@
+sphinx
+sphinx_rtd_theme
+
+# System must also provide LaTeX and dvisvgm
